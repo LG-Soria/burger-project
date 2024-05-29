@@ -6,7 +6,8 @@ import cart from "./../assets/img/Cart.svg";
 
 export default function Nav() {
   return (
-    <div className="bg-transparent text-[#5D544D] flex flex-row h-14  pt-6 justify-between ">
+    <div id="navbar" 
+     className="bg-transparent text-[#5D544D] flex flex-row h-14  pt-6 justify-between" >
       <div className="my-auto left-28 flex flex-row gap-4 items-center  relative ">
         <img src={logo} alt="" className="w-10" />
         <p className="font-extrabold text-3xl ">ZoomBite</p>
@@ -27,7 +28,7 @@ export default function Nav() {
         </li>
       </ul>
 
-      <div className="my-auto mx-10 ">
+      <div className="my-auto mx-10 " id="busqueda">
         <ul className="flex flex-row gap-20  ">
           <li>
             <img src={search} alt=""  className="w-7"/>
