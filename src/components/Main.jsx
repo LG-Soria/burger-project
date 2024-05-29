@@ -49,7 +49,7 @@ export default function Main() {
       <div className="h-[720px]  mt-2 bg-transparent flex flex-row  gap-10  circle1   ">
 
         <div className="ml-24 ohidden ">
-          <div className="mainUno flex flex-col gap-16 w-[45rem]  ">
+          <div className="mainUno flex flex-col gap-16 w-[45rem]  relative top-12">
             <h1 className="text-5xl  mt-12 w-[42rem] text-[#EA804C] font-extrabold title">
               Tu Destino para Comida Rápida y Deliciosa
             </h1>
@@ -60,7 +60,7 @@ export default function Main() {
               nivel de sabor y rapidez en cada visita
             </p>
 
-            <button id="orden" className="w-[13rem] h-[2.4rem] text-xl title font-medium text-[#fff3cb] rounded-full bg-[#EA804C]">
+            <button id="orden" className="w-[15rem]  h-[2.4rem] text-xl title font-medium text-[#fff3cb] rounded-full bg-[#EA804C] transition-all duration-200 hover:scale-95 hover:text-black">
               Ordenar acá {">"}
             </button>
           </div>
@@ -92,7 +92,7 @@ export default function Main() {
       
           <div className="flex flex-row">
        
-          <h4 className="text-[#EA804C] text-4xl  w-[18rem] absolute title font-extrabold">
+          <h4 className="text-[#834527] text-4xl  w-[18rem] absolute title font-extrabold">
                 {slidesWithClones[currentSlide].title} 
               </h4>
             {/**butons */}
